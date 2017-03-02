@@ -52,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -61,13 +61,17 @@
       <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="567">
+              <caret line="67" column="54" lean-forward="false" selection-start-line="67" selection-start-column="54" selection-end-line="67" selection-end-column="54" />
               <folding>
                 <element signature="e#7#89#0#PHP" expanded="true" />
-                <marker date="1488471599603" expanded="true" signature="214:233" ph="select * fro... users" />
-                <marker date="1488471599603" expanded="true" signature="361:390" ph="select * fro... users" />
-                <marker date="1488471599603" expanded="true" signature="361:395" ph="select * fro... users" />
+                <element signature="n#find_all#0;n#User#0;n#!!top" expanded="false" />
+                <element signature="n#find_by_id#0;n#User#0;n#!!top" expanded="false" />
+                <element signature="n#find_by_sql#0;n#User#0;n#!!top" expanded="false" />
+                <element signature="n#has_attribute#0;n#User#0;n#!!top" expanded="false" />
+                <marker date="1488473653173" expanded="true" signature="322:341" ph="select * fro... users" />
+                <marker date="1488473653173" expanded="true" signature="472:501" ph="select * fro... users" />
+                <marker date="1488473653173" expanded="true" signature="472:506" ph="select * fro... users" />
               </folding>
             </state>
           </provider>
@@ -255,7 +259,7 @@
       <option name="presentableId" value="Default" />
       <updated>1488435426762</updated>
       <workItem from="1488435428025" duration="8241000" />
-      <workItem from="1488467783199" duration="3291000" />
+      <workItem from="1488467783199" duration="4921000" />
     </task>
     <task id="LOCAL-00001" summary="Style sheets and bootsprap added">
       <created>1488436174912</created>
@@ -327,11 +331,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488470095816</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="refactoring User">
+      <created>1488472204144</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1488472204144</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11532000" />
+    <option name="totallyTimeSpent" value="13162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -373,7 +384,8 @@
     <MESSAGE value="Database nutral functions" />
     <MESSAGE value="User class created" />
     <MESSAGE value="Include file created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Include file created" />
+    <MESSAGE value="refactoring User" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring User" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -468,19 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#7#89#0#PHP" expanded="true" />
-            <marker date="1488471599603" expanded="true" signature="214:233" ph="select * fro... users" />
-            <marker date="1488471599603" expanded="true" signature="361:390" ph="select * fro... users" />
-            <marker date="1488471599603" expanded="true" signature="361:395" ph="select * fro... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/include.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -491,10 +490,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/includes/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="67" column="54" lean-forward="false" selection-start-line="67" selection-start-column="54" selection-end-line="67" selection-end-column="54" />
+          <folding>
+            <element signature="e#7#89#0#PHP" expanded="true" />
+            <element signature="n#find_all#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#find_by_id#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#find_by_sql#0;n#User#0;n#!!top" expanded="false" />
+            <element signature="n#has_attribute#0;n#User#0;n#!!top" expanded="false" />
+            <marker date="1488473653173" expanded="true" signature="322:341" ph="select * fro... users" />
+            <marker date="1488473653173" expanded="true" signature="472:501" ph="select * fro... users" />
+            <marker date="1488473653173" expanded="true" signature="472:506" ph="select * fro... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding />
         </state>
       </provider>
