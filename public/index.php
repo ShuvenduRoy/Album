@@ -1,8 +1,13 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: bikas
- * Date: 3/2/2017
- * Time: 12:20 PM
- */
+require_once ("../includes/database.php");
+if(isset($database)){
+    echo "true";
+} else {
+    echo "false";
+}
+echo "<br/>";
 echo "this is working";
+
+$sql = "insert into users values(1,'bikash', 'bikash', 'Bikash', 'Roy')";
+$result = $database->query($sql);
+echo $result;
