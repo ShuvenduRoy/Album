@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be7a70dc-8155-4e05-a4ce-78deeb919384" name="Default" comment="Database nutral functions">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/User.php" />
+    <list default="true" id="be7a70dc-8155-4e05-a4ce-78deeb919384" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/include.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,19 +48,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="include.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/include.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
               <folding>
-                <marker date="1488444095231" expanded="true" signature="58:90" ph="select * fro... users" />
+                <element signature="e#6#87#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/User.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
@@ -84,8 +95,9 @@
       <list>
         <option value="$PROJECT_DIR$/includes/config.php" />
         <option value="$PROJECT_DIR$/includes/database.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/includes/User.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/includes/include.php" />
       </list>
     </option>
   </component>
@@ -255,7 +267,7 @@
       <option name="presentableId" value="Default" />
       <updated>1488435426762</updated>
       <workItem from="1488435428025" duration="8241000" />
-      <workItem from="1488467783199" duration="1559000" />
+      <workItem from="1488467783199" duration="1757000" />
     </task>
     <task id="LOCAL-00001" summary="Style sheets and bootsprap added">
       <created>1488436174912</created>
@@ -313,11 +325,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488444109522</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="User class created">
+      <created>1488469897773</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1488469897773</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9800000" />
+    <option name="totallyTimeSpent" value="9998000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -357,7 +376,8 @@
     <MESSAGE value="database connected and inserted into database" />
     <MESSAGE value="fatching returned value" />
     <MESSAGE value="Database nutral functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Database nutral functions" />
+    <MESSAGE value="User class created" />
+    <option name="LAST_COMMIT_MESSAGE" value="User class created" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -393,9 +413,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1488444095231" expanded="true" signature="58:90" ph="select * fro... users" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -454,12 +472,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
+    <entry file="file://$PROJECT_DIR$/includes/include.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        <state relative-caret-position="170">
+          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding>
-            <marker date="1488444095231" expanded="true" signature="58:90" ph="select * fro... users" />
+            <element signature="e#6#87#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -474,6 +492,14 @@
             <marker date="1488469795965" expanded="true" signature="421:450" ph="select * fro... users" />
             <marker date="1488469795965" expanded="true" signature="421:455" ph="select * fro... users" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

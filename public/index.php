@@ -1,7 +1,5 @@
 <?php
-require_once ("../includes/database.php");
+require_once ("../includes/include.php");
 
-$sql = "select * from users where id = 1";
-$result = $database->query($sql);
-$found_user = $database->fetch_array($result);
+$found_user = User::find_by_id(1);
 echo $found_user['username'];
