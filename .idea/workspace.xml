@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be7a70dc-8155-4e05-a4ce-78deeb919384" name="Default" comment="confiq.php file created">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/database.php" />
+    <list default="true" id="be7a70dc-8155-4e05-a4ce-78deeb919384" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database.php" afterPath="$PROJECT_DIR$/includes/database.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,9 +31,14 @@
       <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="289">
+              <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+              <folding>
+                <element signature="n#__construct#0;n#MySQLDatabase#0;n#!!top" expanded="false" />
+                <element signature="n#open_connection#0;n#MySQLDatabase#0;n#!!top" expanded="false" />
+                <element signature="n#close_connection#0;n#MySQLDatabase#0;n#!!top" expanded="false" />
+                <element signature="n#query#0;n#MySQLDatabase#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -205,7 +210,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1488435426762</updated>
-      <workItem from="1488435428025" duration="3275000" />
+      <workItem from="1488435428025" duration="4856000" />
     </task>
     <task id="LOCAL-00001" summary="Style sheets and bootsprap added">
       <created>1488436174912</created>
@@ -228,11 +233,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488437075490</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Creating database connection">
+      <created>1488439011646</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1488439011646</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3275000" />
+    <option name="totallyTimeSpent" value="4856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -267,7 +279,8 @@
     <MESSAGE value="Style sheets and bootsprap added" />
     <MESSAGE value="javaspript added" />
     <MESSAGE value="confiq.php file created" />
-    <option name="LAST_COMMIT_MESSAGE" value="confiq.php file created" />
+    <MESSAGE value="Creating database connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating database connection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -334,9 +347,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="289">
+          <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <folding>
+            <element signature="n#__construct#0;n#MySQLDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#open_connection#0;n#MySQLDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#close_connection#0;n#MySQLDatabase#0;n#!!top" expanded="false" />
+            <element signature="n#query#0;n#MySQLDatabase#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
