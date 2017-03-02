@@ -38,10 +38,29 @@ class MySQLDatabase{
         return $result;
     }
 
+    /**
+     * Database nutral functions
+     */
+    public function fetch_array($resutl_set)
+    {
+        return mysqli_fetch_array($resutl_set);
+    }
+
     public function mysql_prep($string)
     {
         $escaped_string = mysqli_real_escape_string($this->connection, $string);
         return $escaped_string;
+    }
+
+    public function insert_id()
+    {
+        //Get the last id inserted into current db
+        return mysqli_insert_id($this->connection);
+    }
+
+    public function affected_rows()
+    {
+        return mysqli_affected_rows($this->connection);
     }
 }
 
