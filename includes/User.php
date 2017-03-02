@@ -13,9 +13,7 @@ class User
 {
     public static function find_all()
     {
-        global $database;
-        $result_set = $database->query("select * from users");
-        return $result_set;
+        return self::find_by_sql("select * from users");
     }
 
     public static function find_by_id($id=0)
@@ -24,5 +22,11 @@ class User
         $result_set = $database->query("select * from users where id={$id}");
         $found = $database->fetch_array($result_set);
         return $found;
+    }
+
+    public static function find_by_sql($sql=""){
+        global $database;
+        $result_set = $database->query($sql);
+        return $result_set;
     }
 }
