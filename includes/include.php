@@ -6,6 +6,7 @@
  * Time: 9:53 PM
  */
 
+require_once ('DatabaseObject.php');
 require_once ('User.php');
 require_once ('database.php');
 require_once ('functions.php');
