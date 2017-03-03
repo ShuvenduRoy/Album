@@ -42,6 +42,13 @@ class User
         return $object_array;
     }
 
+    public static function authenticate($username="", $Password=""){
+        global $database;
+        $sql = "select * from users where username='{usename}' AND password='{password}' limit 1";
+        $result_set = self::find_by_sql($sql);
+        return !empty($result_set)?array_shift($result_set): false;
+    }
+
     private static function instantiate($record){
         $user               = new User();
         /*$user->id           = $record['id'];
