@@ -9,6 +9,7 @@
 class Session{
     private $logged_in = false;
     private $user_id;
+    public $username;
 
     function __construct()
     {
@@ -24,6 +25,7 @@ class Session{
         if($user){
             $this->user_id = $_SESSION['user_id'] = $user->id;
             $this->logged_in = true;
+            $this->username = $user->username;
         }
     }
 
@@ -31,6 +33,7 @@ class Session{
         unset($_SESSION['user_id']);
         unset($this->user_id);
         $this->logged_in = false;
+        unset($this->username);
     }
 
     private function check_login(){

@@ -36,7 +36,7 @@ if(isset($_POST['submit'])){
 <body>
     <div class = "container">
         <div class="wrapper">
-            <form action="login.php" method="post" name="Login_Form" class="form-signin">
+            <form action="login.php" method="post" class="form-signin">
                 <h3 class="form-signin-heading">Welcome Back! Please Sign In</h3>
                 <hr class="colorgraph"><br>
 
