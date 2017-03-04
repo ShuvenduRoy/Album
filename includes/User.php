@@ -35,26 +35,4 @@ class User extends DatabaseObject
         return $this->first_name." ".$this->last_name;
     }
 
-    public function create(){
-        global $database;
-        $sql = "insert into users (".
-            "username , password, first_name, last_name".
-            ")values('".
-            $this->username."', '".
-            $this->password."', '".
-            $this->first_name."', '".
-            $this->last_name."')";
-
-        if($database->query($sql)){
-            $this->id = $database->insert_id();
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    public function update(){
-
-    }
-
 }
